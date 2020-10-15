@@ -10,3 +10,7 @@ spec:
           env:
             - name: TARGET
               value: "Quarkus Sample v1"
+  traffic:
+    - tag: v1
+      revisionName: helloworld-java-r9s2m
+      percent: 100
